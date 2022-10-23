@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		A71DFF5C29057C0100A93BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DFF5B29057C0100A93BA0 /* AppDelegate.swift */; };
 		A71DFF5E29057C0100A93BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DFF5D29057C0100A93BA0 /* SceneDelegate.swift */; };
-		A71DFF6029057C0100A93BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DFF5F29057C0100A93BA0 /* ViewController.swift */; };
 		A71DFF6329057C0100A93BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71DFF6129057C0100A93BA0 /* Main.storyboard */; };
 		A71DFF6629057C0100A93BA0 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A71DFF6429057C0100A93BA0 /* ToDoList.xcdatamodeld */; };
 		A71DFF6829057C0100A93BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71DFF6729057C0100A93BA0 /* Assets.xcassets */; };
 		A71DFF6B29057C0100A93BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71DFF6929057C0100A93BA0 /* LaunchScreen.storyboard */; };
+		A71DFF7329057CB300A93BA0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71DFF7229057CB300A93BA0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A71DFF5829057C0100A93BA0 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71DFF5B29057C0100A93BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A71DFF5D29057C0100A93BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A71DFF5F29057C0100A93BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A71DFF6229057C0100A93BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A71DFF6529057C0100A93BA0 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		A71DFF6729057C0100A93BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71DFF6A29057C0100A93BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A71DFF6C29057C0100A93BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71DFF7229057CB300A93BA0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				A71DFF5B29057C0100A93BA0 /* AppDelegate.swift */,
 				A71DFF5D29057C0100A93BA0 /* SceneDelegate.swift */,
-				A71DFF5F29057C0100A93BA0 /* ViewController.swift */,
 				A71DFF6129057C0100A93BA0 /* Main.storyboard */,
+				A71DFF7229057CB300A93BA0 /* TableViewController.swift */,
 				A71DFF6729057C0100A93BA0 /* Assets.xcassets */,
 				A71DFF6929057C0100A93BA0 /* LaunchScreen.storyboard */,
 				A71DFF6C29057C0100A93BA0 /* Info.plist */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71DFF6029057C0100A93BA0 /* ViewController.swift in Sources */,
 				A71DFF5C29057C0100A93BA0 /* AppDelegate.swift in Sources */,
 				A71DFF5E29057C0100A93BA0 /* SceneDelegate.swift in Sources */,
 				A71DFF6629057C0100A93BA0 /* ToDoList.xcdatamodeld in Sources */,
+				A71DFF7329057CB300A93BA0 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
